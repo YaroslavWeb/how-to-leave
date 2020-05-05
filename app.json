@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Как свалить?",
+    "description": "Справочник стран для туристов и желающих эмигрировать.",
+    "slug": "how-to-leave",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "ru.yaroslavweb.htl",
+      "versionCode": 1,
+      "config": {
+        "googleMobileAdsAppId":"ca-app-pub-3307342027640793~1597083431",
+        "googleMaps": {
+          "apiKey": "AIzaSyD7KZwbZlwgZEOK4Ow9jEQ0Ny_MIyVjA9g"
+        }
+      }
+    }
+  }
+}
